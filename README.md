@@ -1,8 +1,8 @@
-# passcode\n
-Pythonista passcode\n
-Use to lock your scripts with fingerprint or touch-id\n
-Use the following code:\n\n
+# passcode
+Pythonista passcode
+Use to lock your scripts with fingerprint or touch-id
+Use the following code:
 
-import passcode,sys,importlib\n
-importlib.reload(passcode)\n
-if not passcode.auth_completed: sys.exit()\n
+import passcode,sys,importlib
+importlib.reload(passcode)
+if not passcode.auth_completed: sys.exit()
